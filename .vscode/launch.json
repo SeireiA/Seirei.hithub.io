@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "cwd": "d:\\0\\Github\\SeireiA.github.io",
       "environment": [],
-      "program": "d:\\0\\Github\\SeireiA.github.io\\build\\Debug\\outDebug",
+      "program": "d:\\0\\Github\\SeireiA.github.io\\build\\Release\\outRelease",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
