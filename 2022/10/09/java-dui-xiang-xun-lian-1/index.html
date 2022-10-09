@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="我回来啦, As long as">
+    <meta name="keywords" content="Java-对象训练_1, As long as">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>我回来啦 | As long as</title>
+    <title>Java-对象训练_1 | As long as</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -268,12 +268,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">我回来啦</h1>
+                    <h1 class="description center-align post-title">Java-对象训练_1</h1>
                 </div>
             </div>
         </div>
@@ -389,8 +389,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%9B%9E%E5%BF%86-%E6%9C%AA%E6%9D%A5/">
-                                <span class="chip bg-color">-回忆 -未来</span>
+                            <a href="/tags/Java-%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">-Java -学习</span>
                             </a>
                         
                     </div>
@@ -401,8 +401,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%BC%80%E5%A7%8B/" class="post-category">
-                                开始
+                            <a href="/categories/%E7%BC%96%E7%A8%8B/" class="post-category">
+                                编程
                             </a>
                         
                     </div>
@@ -414,21 +414,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-10-08
+                    2022-10-09
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-10-08
+                    2022-10-09
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    301
+                    227
                 </div>
                 
 
@@ -463,18 +463,76 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="我又回来啦"><a href="#我又回来啦" class="headerlink" title="我又回来啦"></a>我又回来啦</h2><p>从初一看开始的磕磕绊绊,到大二开始平稳坦然,对于编程来说,是我为二的使然</p>
-<p>这个网站也从刚开始<strong>静态</strong>到后来的<strong>动态博客</strong>,再到如今的基于HEXO的Github Pages</p>
-<p>是没有钱就不行的VPS,也是没有一直维护意识的我</p>
-<p>7年,换了三个主域名,VPS换过无数.但我还是我,那个热爱编程分享知识和日常碎片的我.</p>
-<p>这次想起来,是因为我是去了我觉得非常重要的人,本想写个回忆分别记,奈何别的平台怎么写都不如愿.</p>
-<p>最后,还是用自己网站吧,Github信得过,还不花钱,它不倒,我不倒,它倒了,我跑路换别的啊😬</p>
-<h2 id="目前的打算"><a href="#目前的打算" class="headerlink" title="目前的打算"></a>目前的打算</h2><ul>
-<li>下一篇写写基于Github搭建Hexo</li>
-<li>22-01-02前写好回忆录</li>
-<li>时不时分享下学习编程过程中遇到的弯路</li>
-</ul>
-<p>文笔不行,写这么点东西就开始文思枯竭了😢 以后,为了更好的我,为了我10年前立下的Flags,一步一步慢慢实现,不是让别人看我,是为了我自己舒服.</p>
+                <h2 id="新建测试类-wenzi-gedou"><a href="#新建测试类-wenzi-gedou" class="headerlink" title="新建测试类 wenzi_gedou"></a>新建测试类 wenzi_gedou</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Random</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> wenzi_gedou <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        gedou_renwu u1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token function">gedou_renwu</span><span class="token punctuation">(</span><span class="token string">"张三"</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        gedou_renwu u2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token function">gedou_renwu</span><span class="token punctuation">(</span><span class="token string">"李四"</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">Random</span> r<span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Random</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>u1<span class="token punctuation">.</span>hp<span class="token operator">&gt;=</span><span class="token number">0</span><span class="token operator">&amp;&amp;</span>u2<span class="token punctuation">.</span>hp<span class="token operator">&gt;=</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">int</span> hurt <span class="token operator">=</span> r<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            u2<span class="token punctuation">.</span><span class="token function">setHp</span><span class="token punctuation">(</span>hurt<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>u2<span class="token punctuation">.</span><span class="token function">getHp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"张三给李四造成了"</span><span class="token operator">+</span>hurt<span class="token operator">+</span><span class="token string">"点伤害"</span><span class="token operator">+</span><span class="token string">",李四还剩下"</span><span class="token operator">+</span>u2<span class="token punctuation">.</span><span class="token function">getHp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token string">"点血量"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            hurt <span class="token operator">=</span> r<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            u1<span class="token punctuation">.</span><span class="token function">setHp</span><span class="token punctuation">(</span>hurt<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>u1<span class="token punctuation">.</span><span class="token function">getHp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"李四给张三造成了"</span><span class="token operator">+</span>hurt<span class="token operator">+</span><span class="token string">"点伤害"</span><span class="token operator">+</span><span class="token string">",张三还剩下"</span><span class="token operator">+</span>u1<span class="token punctuation">.</span><span class="token function">getHp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token string">"点血量"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>u1<span class="token punctuation">.</span>hp<span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"李四K.O了张三"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>u2<span class="token punctuation">.</span>hp<span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"张三K.O了李四"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">else</span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"出错"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="新建java-bean类-gedou-renwu"><a href="#新建java-bean类-gedou-renwu" class="headerlink" title="新建java bean类 gedou_renwu"></a>新建java bean类 gedou_renwu</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> gedou_renwu <span class="token punctuation">{</span>
+    <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+    <span class="token keyword">int</span> hp<span class="token punctuation">;</span>
+
+
+    <span class="token keyword">public</span> <span class="token function">gedou_renwu</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token function">gedou_renwu</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">,</span> <span class="token keyword">int</span> hp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>hp <span class="token operator">=</span> hp<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 获取
+     * @return name
+     */</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> name<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 设置
+     * @param name
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setName</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 获取
+     * @return hp
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">getHp</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> hp<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 设置
+     * @param hp
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setHp</span><span class="token punctuation">(</span><span class="token keyword">int</span> hp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>hp <span class="token operator">-=</span> hp<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -501,7 +559,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://blog.seirei.top/2022/10/08/wo-you-hui-lai-la/">https://blog.seirei.top/2022/10/08/wo-you-hui-lai-la/</a>
+                    <a href="https://blog.seirei.top/2022/10/09/java-dui-xiang-xun-lian-1/">https://blog.seirei.top/2022/10/09/java-dui-xiang-xun-lian-1/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -539,8 +597,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%9B%9E%E5%BF%86-%E6%9C%AA%E6%9D%A5/">
-                                    <span class="chip bg-color">-回忆 -未来</span>
+                                <a href="/tags/Java-%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">-Java -学习</span>
                                 </a>
                             
                         </div>
@@ -637,9 +695,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/10/09/java-dui-xiang-xun-lian-1/">
                     <div class="card-image">
@@ -657,9 +716,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-09
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -672,6 +731,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -690,19 +750,19 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/10/08/ni-hao-shi-jie/">
+                <a href="/2022/10/08/wo-you-hui-lai-la/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="文章编辑默认属性">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="我回来啦">
                         
-                        <span class="card-title">文章编辑默认属性</span>
+                        <span class="card-title">我回来啦</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            关于博客发文Front-matter的注释
+                            嗨嗨嗨,我回来啦
                         
                     </div>
                     <div class="publish-info">
@@ -711,11 +771,23 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            SeireiYa
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%BC%80%E5%A7%8B/" class="post-category">
+                                    开始
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%9B%9E%E5%BF%86-%E6%9C%AA%E6%9D%A5/">
+                        <span class="chip bg-color">-回忆 -未来</span>
+                    </a>
+                    
                 </div>
                 
             </div>
